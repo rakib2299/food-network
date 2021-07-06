@@ -11,15 +11,17 @@ body {
 h1 {
     font-size: 47px;
     line-height: 1.5;
+    color: rgb(75, 72, 72);
 }
 .text-color{
-    color: rgb(240, 10, 10);
+    color: rgb(241, 34, 86);
 }
 h4 {
     font-size: 17px;
     line-height: 1.7;
     font-weight: 600;
     color: rgb(78, 73, 73);
+    
 }
 .flex-content {
     display: flex;
@@ -33,10 +35,10 @@ h4 {
     width: 100%;
 
 }
-.header-area {
+.header-bg {
     background-image: url(images/bg1.jpg);
     background-repeat: no-repeat;
-    background-position:right center;
+   
 }
 .link-btn {
     text-decoration: none;
@@ -51,11 +53,63 @@ h4 {
 
 
         /* About-Area */
+.about-area {
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+   
+}
+
 h2{
     font-size: 40px;
+    color: rgb(75, 72, 72);
 }
+
 p {
     font-size: 18px;
     color: rgb(71, 65, 65);
     line-height: 1.5;
 }
+
+
+                    /* Beverage Area */
+.beverage-area {
+    text-align: center;
+}
+.beverage-items {
+    display: flex;
+    margin: 3%;
+}
+.beverage-box {
+    width: 31%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    margin: 1.5%;
+    padding: 1.5%;
+    border-radius: 19px;
+}
+.text-item h3 {
+    color: rgb(75, 72, 72);
+}
+.img-item img {
+    width: 100%;
+}
+
+
+                   /* Discount Area */
+.discount-area {
+    margin: 5%;
+    background-image: url(images/discount1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    border-radius: 5px;
+}  
+.discount-content h1,
+.discount-content h2,
+.discount-content h3 {
+    margin: 0;
+    color: rgb(75, 72, 72);
+}      
+.discount-content {
+    margin-left: 30px ;
+}           

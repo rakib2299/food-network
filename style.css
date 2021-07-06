@@ -102,7 +102,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
-    border-radius: 5px;
+    border-radius: 10px;
 }  
 .discount-content h1,
 .discount-content h2,
@@ -112,4 +112,15 @@ p {
 }      
 .discount-content {
     margin-left: 30px ;
+}           
+
+            /* Footer Area */
+.footer-area {
+    background: rgb(34, 33, 33);
+    padding: 20px;
+    text-align: center;
+}  
+.footer-area p {
+    color: rgb(207, 214, 207);
+    font-size: 15px;
 }           
